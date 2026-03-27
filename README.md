@@ -12,10 +12,8 @@
 5. [Expected Value — Hit or Stand?](#5-expected-value--hit-or-stand)
 6. [Strategy Table](#6-strategy-table)
 7. [Visualizations](#7-visualizations)
-8. [Simulation vs Analytical](#8-simulation-vs-analytical)
-9. [Expected Value & Variance](#9-expected-value--variance)
-10. [Interactive Game](#10-interactive-game)
-11. [How to Run](#11-how-to-run)
+8. [Expected Value & Variance](#9-expected-value--variance)
+9. [Interactive Game](#10-interactive-game)
 
 ---
 
@@ -243,29 +241,7 @@ Hard 17       S   S   S   S   S   S   S   S   S   S
 
 ---
 
-## 8. Simulation vs Analytical
-
-We compute the strategy two ways and compare:
-
-| Method | How | Result |
-|--------|-----|--------|
-| **Analytical** | Exact probability math, no randomness | Precise EV for every cell |
-| **Simulation** | Run 1,000,000 hands, count outcomes | Estimated EV converges to analytical |
-
-**Why both?** The analytical result is the ground truth. The simulation verifies it — if both give the same answer, our math is correct.
-
-**Convergence test:**
-
-| N hands | Estimated EV |
-|---------|-------------|
-| 1,000 | varies a lot |
-| 10,000 | getting closer |
-| 100,000 | very close |
-| 1,000,000 | matches analytical ✓ |
-
----
-
-## 9. Expected Value & Variance
+## 8. Expected Value & Variance
 
 **Overall EV** (averaged across all starting hands and dealer upcards):
 
@@ -292,7 +268,7 @@ High variance means the game is risky — individual outcomes swing between win 
 
 ---
 
-## 10. Interactive Game
+## 9. Interactive Game
 
 The interactive game lets you play hands manually while showing the optimal strategy hint at each step.
 
