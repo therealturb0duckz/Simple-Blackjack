@@ -228,7 +228,7 @@ Hard 17       S   S   S   S   S   S   S   S   S   S
 
 **Interesting observation:** Even the best strategy cannot overcome a bad hand — Hard 16 is red everywhere, meaning you are expected to lose no matter what the dealer shows. The strategy just minimizes how much you lose.
 
-![EV Heatmap](plot1_evheatmap.png)
+![EV Heatmap](plot1_ev_heatmap.png.png)
 
 ---
 
