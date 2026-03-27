@@ -1,7 +1,5 @@
 # Simple Blackjack — Probability & Strategy
 
-> A two-person project exploring Hit/Stand strategy using analytical probability and simulation.
-> Winning = +1 &nbsp;·&nbsp; Draw = 0 &nbsp;·&nbsp; Loss = −1
 
 ---
 
