@@ -196,9 +196,9 @@ Hard 17       S   S   S   S   S   S   S   S   S   S
 
 **What it shows:** How often the dealer busts for each upcard.
 
-**How to read it:** Taller bar = dealer more likely to bust = better for you. Dealer 5 and 6 are the weakest upcards with ~40% bust rate. Dealer Ace is the strongest with only ~17% bust rate.
+**How to read it:** Taller bar = dealer more likely to bust = better for you. Dealer 5 and 6 are the weakest upcards with ~40% bust rate. 
 
-**Why it matters:** This directly explains the strategy table — when the dealer is weak (5, 6), you stand more and let them bust. When the dealer is strong (7–Ace), you hit more because they are unlikely to bust on their own.
+**Why it matters:** This directly explains the strategy table — when the dealer is weak (5, 6), you stand more and let them bust. 
 
 ![Dealer Bust Probability](plot2_dealer_bust.png)
 
@@ -234,7 +234,7 @@ Hard 17       S   S   S   S   S   S   S   S   S   S
 
 **How to read it:** High bar = outcome is unpredictable (could win or lose). Low bar = outcome is more certain.
 
-**Why it matters:** Mid-range totals like 15–16 have the highest variance — sometimes the dealer busts and you win, sometimes you bust and lose. Very high totals like 20–21 have lower variance because the outcome is more predictable (you almost always win).
+**Why it matters:** Very high totals like 20–21 have lower variance because the outcome is more predictable (you almost always win).
 
 ![Variance Hard](plot4_variance.png)
 ![Variance Soft](plot5_variancesoft.png)
